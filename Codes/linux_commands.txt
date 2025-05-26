@@ -1,0 +1,7 @@
+ps au | grep easytravel
+sudo su
+ll
+cd
+./weblauncher &
+pkill -f easytravel
+kill -9 <pid>
