@@ -8,3 +8,10 @@
     8  java -version
     9  history
    10  clear
+
+
+execute "java -jar dynatrace-easytravel-linux-x86_64.jar"
+
+cd easytravel-2.0.0-x64/web
+
+./weblauncher.sh &
